@@ -23,5 +23,5 @@ jobs:
         aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
         aws_default_region: us-east-1
 
-        app_port: 8000, 4173
+        app_port: 8000
         #stack_destroy: true
