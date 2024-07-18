@@ -1,17 +1,25 @@
-# Use the latest official Node.js image as a base
-FROM node:latest
+# Stage 1: Build the React app
+# FROM node:16-alpine AS build
+FROM node:lts AS development
 
-# Set the working directory
+# Set working directory
 WORKDIR /app
 
-# Copy the application files
-COPY . .
+# Copy package.json and package-lock.json
+COPY package*.json ./
 
 # Install dependencies
 RUN npm install
 
-# Expose the port the development server runs on
-EXPOSE 5173
+# Copy the rest of the application
+COPY . .
 
-# Run the development server
-CMD ["npm", "run", "dev", "--", "--host"]
+# build the application
+RUN npm run build
+
+
+EXPOSE 4173
+
+
+# Run the development server on container start
+CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
