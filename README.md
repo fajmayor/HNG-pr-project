@@ -1,10 +1,10 @@
-# Full Stack FastAPI and React Template sfgvgdfsvgf dsvs
+# Full Stack FastAPI and React Template sfgvgdfsvgf dsvs dfgvdfsgv
 
 Welcome to the Full-Stack FastAPI and React template repository. This repository serves as a demo application for interns, showcasing how to set up and run a full-stack application with a FastAPI backend and a ReactJS frontend using ChakraUI.
 
 ## Project Structure
 
-The repository is organized into two main directories:
+The repository is organized into two main directories:fdvsdvdsvfdsv
 
 - **frontend**: Contains the ReactJS application.
 - **backend**: Contains the FastAPI application and PostgreSQL database integration.
