@@ -11,7 +11,7 @@ The repository is organized into two main directories:
 
 Each directory has its own README file with detailed instructions specific to that part of the application.
 
-## Getting Started
+## Getting Started with this setup
 
 To get started with this template, please follow the instructions in the respective directories:
 
