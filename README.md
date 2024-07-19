@@ -22,7 +22,7 @@ To get started with this template, please follow the instructions in the respect
 
 ### Locally
 
-To run the application locally, execute:
+##To run the application locally, execute:
 
 ```bash
     sudo docker-compose up -d
